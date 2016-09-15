@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.1)  14 SEP 2016 21:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.1)  14 SEP 2016 23:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -144,11 +144,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 38.
+(Font)              using `OT1/cmss/bx/n' instead on input line 40.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 38.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 40.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 134.
@@ -175,7 +175,7 @@ dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy5.pfb>
-Output written on cv.pdf (1 page, 99980 bytes).
+Output written on cv.pdf (1 page, 101892 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream
