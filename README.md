@@ -9,10 +9,10 @@ Fonts are embedded into the pdf using embed\_fonts.sh - see usage in embed\_font
 #Build 
 
 Dependecies:
-	- texlive
-	- pdflatex
-	- gs (ghostscript)
+- texlive
+- pdflatex
+- gs (ghostscript)
 
 To build, run:
-	make
+- make
 
