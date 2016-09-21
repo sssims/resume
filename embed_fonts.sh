@@ -33,7 +33,17 @@ gs -dCompatibilityLevel=1.4 \
    -dNOPAUSE \
    -dBATCH \
    -sDEVICE=pdfwrite \
-   -sOutputFile=$output_filename \
+   -sOutputFile=.embed_fonts_temp.pdf \
    -c ".setpdfwrite <</NeverEmbed [ ]>> setdistillerparams" \
    -f $1
 
+embed_script_exit=$?
+
+mv .embed_fonts_temp.pdf $output_filename
+
+if [ "$embed_script_exit" -eq "0" ]
+  then
+    echo "Fonts successfully embedded into $output_filename"
+else
+    echo "Fonts FAILED to embed; see script output above"
+fi
